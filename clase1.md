@@ -39,6 +39,7 @@ Al finalizar la actividad, los estudiantes deberán ser capaces de:
 ## 2. ¿Qué hace el agente?
 
 Describa en dos o tres líneas cuál es la función del sistema.
+
 La función principal del sistema es a partir de una descripción dada, se genera una imgaen con las caracteristicass dadas en la descripcion. 
 ------------------------------------------------------------------------
 
@@ -48,12 +49,16 @@ La función principal del sistema es a partir de una descripción dada, se gener
   ----------------- ----------------------------------------------------
   **Performance**   ¿Qué significa que el agente haga bien su trabajo?
   En este caso, se genera una imagen lo más cercana posible a la descripción dada por el usuario. 
+  
   **Environment**   ¿Con qué interactúa el agente?
   El usuario escribiendo el prompt, la inteligencia usada para la generación de imagen 
+  
   **Actuators**     ¿Qué acciones produce?
   Generar la imagen
+  
   **Sensors**       ¿Qué información recibe como entrada?
   La descripción dada por el usuario
+
 ------------------------------------------------------------------------
 
 ## 4. Clasificación del entorno
