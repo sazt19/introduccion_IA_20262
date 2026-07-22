@@ -30,16 +30,16 @@ Al finalizar la actividad, los estudiantes deberán ser capaces de:
 
 ## 1. Nombre del Space
 
-**Nombre:**
+**Nombre:** Z Image Turbo
 
-**Enlace:**
+**Enlace:** https://huggingface.co/spaces/mrfakename/Z-Image-Turbo
 
 ------------------------------------------------------------------------
 
 ## 2. ¿Qué hace el agente?
 
 Describa en dos o tres líneas cuál es la función del sistema.
-
+La función principal del sistema es a partir de una descripción dada, se genera una imgaen con las caracteristicass dadas en la descripcion. 
 ------------------------------------------------------------------------
 
 ## 3. Análisis PEAS
@@ -47,10 +47,13 @@ Describa en dos o tres líneas cuál es la función del sistema.
   Elemento          Respuesta
   ----------------- ----------------------------------------------------
   **Performance**   ¿Qué significa que el agente haga bien su trabajo?
+  En este caso, se genera una imagen lo más cercana posible a la descripción dada por el usuario. 
   **Environment**   ¿Con qué interactúa el agente?
+  El usuario escribiendo el prompt, la inteligencia usada para la generación de imagen 
   **Actuators**     ¿Qué acciones produce?
+  Generar la imagen
   **Sensors**       ¿Qué información recibe como entrada?
-
+  La descripción dada por el usuario
 ------------------------------------------------------------------------
 
 ## 4. Clasificación del entorno
@@ -59,12 +62,12 @@ Complete la siguiente tabla y justifique brevemente cada respuesta.
 
   Propiedad      Clasificación     Justificación
   -------------- ----------------- ---------------
-  Observable     Total / Parcial   
-  Determinista   Sí / No           
-  Episódico      Sí / No           
-  Estático       Sí / No           
-  Discreto       Sí / No           
-  Conocido       Sí / No           
+  Observable     Total / Parcial  - Parcial: El agente no sabe ni tiene mas informacion que el prompt escrito por el usuario, por lo que no puede saberlo.  
+  Determinista   Sí / No  - No: El restultado cambia cada vez que es ejecutado, asi sea el mismo prompt. 
+  Episódico      Sí / No - No      
+  Estático       Sí / No  - No         
+  Discreto       Sí / No  - Si       
+  Conocido       Sí / No  - Conocido         
 
 ------------------------------------------------------------------------
 
@@ -77,6 +80,8 @@ Seleccione la opción que consideren más adecuada y explique por qué.
 -   Agente basado en objetivos
 -   Agente basado en utilidad
 -   Agente con aprendizaje
+
+Considero que en este caso podría ser un agente de reflejo simple, ya que simplemente está tomando la descripción que se le da y generando una imagen, no tiene en cuenta diferentes aspectos o reglas adicionales (que se conozcan) para lograr el objetivo. 
 
 > **Importante:** No existe una única respuesta correcta. Lo importante
 > es justificar la elección a partir del comportamiento observado.
