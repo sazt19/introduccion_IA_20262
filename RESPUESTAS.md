@@ -167,3 +167,15 @@ _Evidencia:_ …
 
 _Mi respuesta / análisis:_
 
+
+Tarea|Notebook|Dónde cambias|Qué cambias
+A2|	02b	Sección 3	Archivo JSON propio y ruta de load_documents
+A3|	02b	Sección 4 (prompt)	Texto del system prompt
+A4|	02b	Secciones 4 y 5	build_pipeline devuelve el vectorstore; chat() muestra scores
+B2|	03	Celda nueva tras la Parte 4	Funciones build_store y build_chain
+B3|	03	Parte 4 (prompt)	Texto del system prompt
+B4, B5	03	Celdas nuevas tras el Bonus	Preguntas y ground truth propios
+C2	03	Parte 1	Nuevo PDF en el diccionario PAPERS
+C3	03 + 02b	Celdas nuevas	Interfaz Gradio con filtro por metadata
+C5	03	Parte 4	search_type="mmr"
+C6	03	Parte 3	QdrantClient(path=...)
